@@ -450,7 +450,7 @@ const sidebar = ref({
 
 const displayFontSize = computed(() => {
   if (display.value) {
-    return display.value.length > 10 ? (10 / display.value.length) + 3.1 : 6
+    return display.value.length > 10 ? (10 / display.value.length) + 3.1 : 5.9
   }
 })
 
@@ -545,6 +545,7 @@ const isRounded = ref<boolean>(false)
   margin-inline: .3rem;
   padding: 0.4rem;
   text-align: right;
+  word-break: break-all;
 }
 
 .buttons {
