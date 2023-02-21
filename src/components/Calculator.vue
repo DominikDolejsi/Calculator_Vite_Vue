@@ -646,4 +646,22 @@ const isRounded = ref<boolean>(false)
   border: .05rem solid #212121;
 }
 
+
+@media (max-width: 1023px) {
+
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .frontContainer {
+    width: calc(100% - .7rem);
+    height: calc(100% - .7rem);
+  }
+
+  .diode:hover::before {
+    width: 80vw;
+  }
+}
+
 </style>
