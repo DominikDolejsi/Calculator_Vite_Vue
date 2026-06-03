@@ -21,3 +21,8 @@ The implementation is not production-ready and contains known limitations, but i
 ### Install dependencies
 ```bash
 npm install
+```
+
+```bash
+npm run dev
+```
